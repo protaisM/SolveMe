@@ -1,2 +1,1 @@
-Enjoy the garden! What a nice place!
-Would you be interested in smoking mushrooms with me?
+I'm looking for my Dichlorodiphenyltrichloroethane, have you seen it? My coffee tastes nasty.
