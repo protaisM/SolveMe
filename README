@@ -1,2 +1,1 @@
-Enjoy the garden! What a nice place!
-Would you be interested in smoking mushrooms with me?
+It's nice and sunny here. I hope you run faster than my Venus Flytrap though. And keep your hands to yourself!
