@@ -1,0 +1,22 @@
+#!/bin/bash
+	if [ $# -eq 0 ]; then
+		echo "This is my oxidiser. What it does is to add oxygen to a given molecules."
+		echo "For instance the water in this lab is produced by putting dihydrogen in there."
+	elif [ $# -eq 1 ]; then
+        input=$(cat $1)
+        p=${input:0:1}
+        input=${input:1}
+        if [[ "$p" = "1" || "$p" = "2" ]]; then
+            echo "Are you not afraid it will become rusty?"
+            git checkout reserve O2
+            o2=$(cat O2)
+            o=${o2:1}
+            o=$((o/2))
+            rm O2
+            echo "2$((input + o))" > rusty_stuff
+        else
+            echo "Sadly, it doesn't work with liquids..."
+        fi
+	else
+		echo "What are you trying to do exactly...? You seem confused..."
+	fi
