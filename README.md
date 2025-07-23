@@ -1,2 +1,2 @@
-Enjoy the garden! What a nice place!
-Would you be interested in smoking mushrooms with me?
+You are in the decontamination chamber.
+Nothing really interesting here... Just don't sneeze!
