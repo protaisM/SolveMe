@@ -1,8 +1,0 @@
-#!/bin/bash
-
-git checkout reserve Na2
-git checkout reserve Cl2
-git checkout main molecular_recombinator
-./molecular_recombinator Na2 Cl2
-mv new_mol salt
-rm molecular_recombinator Na2 Cl2

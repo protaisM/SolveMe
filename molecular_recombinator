@@ -1,0 +1,26 @@
+#!/bin/bash
+	if [ $# -eq 0 ]; then
+		echo "This is a molecular recombinator! A very expensive machine..."
+		echo "I mostly use it to create salt. You see, if you give it H2 and Na2 it will mix them to create NaCl."
+		echo "Wonderful, isn't it?"
+	elif [ $# -eq 1 ]; then
+		echo "No no you didn't understand... You need to give two molecules!"
+	elif [ $# -eq 2 ]; then
+        mol1=$(cat $1)
+        mol2=$(cat $2)
+        p1=${mol1:0:1}
+        p2=${mol2:0:1}
+        if [[ "$p1" = "1" && "$p2" = "1" ]]; then
+            mol1=${mol1:1}
+            mol2=${mol2:1}
+            echo "Molecular recombination in progress. Please wait."
+            sleep 1
+            echo "Operation completed."
+            new_mol="2$(((mol1+mol2)/2))"
+            echo $new_mol > new_mol
+        else
+            echo "Hmm... These are complex molecules... I don't think it is that easy..."
+        fi
+	else
+		echo "What are you trying to do exactly...? You seem confused..."
+	fi
